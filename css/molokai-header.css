@@ -4,7 +4,7 @@
 }
 
 /* disable background-shadow */
-.nav li, .brand {
+.nav li a, .brand {
 	text-shadow: none !important;
 }
 
