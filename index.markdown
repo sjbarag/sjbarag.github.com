@@ -1,6 +1,5 @@
 ---
 layout: index
-title: Sean Barag
 ---
 **Hiya!**  I'm Sean, a senior at [Drexel University](http://drexel.edu), double
 majoring in Electronics Engineering and Computer Engineering.  I spend a lot of
