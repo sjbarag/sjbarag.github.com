@@ -1,0 +1,66 @@
+/* molokai navbar background */
+.navbar-inner {
+	background-color: #121212;
+}
+
+/* disable background-shadow */
+.nav li, .brand {
+	text-shadow: none !important;
+}
+
+/* --- molokai-inspired highlights --- */
+
+.resume-active p::-moz-selection {
+	background: #e52222;
+}
+
+/* green */
+.brand {
+	color: #a6e32d;
+	background-color:#121212;
+}
+
+.navbar-inverse .brand:hover, .main-active .brand {
+	background-color: #a6e32d;
+	color: #121212;
+}
+
+/* blue */
+#blog a {
+	color: #67d9f0;
+}
+
+#blog a:hover, .blog-active #blog > a{
+	background-color: #67d9f0;
+	color: #121212;
+}
+
+/* red */
+#resume a {
+	color: #e52222;
+}
+
+#resume a:hover, .resume-active #resume > a {
+	background-color: #e52222;
+	color: #121212;
+}
+
+/* purple */
+#contact a {
+	color: #c48dff;
+}
+
+#contact a:hover, .contact-active #contact > a {
+	background-color: #c48dff;
+	color: #121212;
+}
+
+/* orange */
+#about a {
+	color: #fc951e;
+}
+
+#about a:hover, .about-active #about > a {
+	background-color: #fc951e;
+	color: #121212;
+}
