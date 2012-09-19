@@ -42,39 +42,39 @@
 }
 
 /* red */
-#resume a {
+#projects a {
 	color: #e52222;
 }
 
-#resume a:hover, .resume-active #resume > a {
+#projects a:hover, .projects-active #projects > a {
 	background-color: #e52222;
 	color: #121212;
 }
 
-.resume-active p::-moz-selection {
+.projects-active p::-moz-selection {
 	background: #e52222;
 }
 
 /* purple */
-#contact a {
+#resume a {
 	color: #c48dff;
 }
 
-#contact a:hover, .contact-active #contact > a {
+#resume a:hover, .resume-active #resume > a {
 	background-color: #c48dff;
 	color: #121212;
 }
 
-.contact-active p::-moz-selection {
+.resume-active p::-moz-selection {
 	background: #c48dff;
 }
 
 /* orange */
-#about a {
+#contact a {
 	color: #fc951e;
 }
 
-#about a:hover, .about-active #about > a {
+#contact a:hover, .contact-active #contact > a {
 	background-color: #fc951e;
 	color: #121212;
 }
