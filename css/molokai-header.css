@@ -10,9 +10,6 @@
 
 /* --- molokai-inspired highlights --- */
 
-.resume-active p::-moz-selection {
-	background: #e52222;
-}
 
 /* green */
 .brand {
@@ -25,6 +22,11 @@
 	color: #121212;
 }
 
+.main-active p::-moz-selection,
+.main-active p>*::-moz-selection {
+	background: #a6e32d;
+}
+
 /* blue */
 #blog a {
 	color: #67d9f0;
@@ -33,6 +35,10 @@
 #blog a:hover, .blog-active #blog > a{
 	background-color: #67d9f0;
 	color: #121212;
+}
+
+.blog-active p::-moz-selection {
+	background: #67d9f0;
 }
 
 /* red */
@@ -45,6 +51,10 @@
 	color: #121212;
 }
 
+.resume-active p::-moz-selection {
+	background: #e52222;
+}
+
 /* purple */
 #contact a {
 	color: #c48dff;
@@ -55,6 +65,10 @@
 	color: #121212;
 }
 
+.contact-active p::-moz-selection {
+	background: #c48dff;
+}
+
 /* orange */
 #about a {
 	color: #fc951e;
@@ -63,4 +77,8 @@
 #about a:hover, .about-active #about > a {
 	background-color: #fc951e;
 	color: #121212;
+}
+
+.contact-active p::-moz-selection, .contact-active a::-moz-selection {
+	background: #fc951e;
 }
