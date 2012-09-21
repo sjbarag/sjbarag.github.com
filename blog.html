@@ -1,0 +1,10 @@
+---
+layout: blog
+---
+
+Here are some blog posts I've written.
+<ul>
+	{% for post in site.posts limit:5 %}
+	<li><a href="{{post.id}}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
