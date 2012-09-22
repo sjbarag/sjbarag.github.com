@@ -1,5 +1,5 @@
 /* molokai navbar background */
-.navbar-inner {
+.navbar-inverse .container{
 	background-color: #121212;
 }
 
@@ -8,8 +8,15 @@
 	text-shadow: none !important;
 }
 
-/* --- molokai-inspired highlights --- */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	     box-shadow: none;
+}
 
+/* --- molokai-inspired highlights --- */
 
 /* green */
 .brand {
@@ -17,13 +24,13 @@
 	background-color:#121212;
 }
 
-.navbar-inverse .brand:hover, .main-active .brand {
+.navbar-inverse .brand:hover, .brand.active {
 	background-color: #a6e32d;
 	color: #121212;
 }
 
-.main-active p::-moz-selection,
-.main-active p>*::-moz-selection {
+.brand.active p::-moz-selection,
+.brand.active p>*::-moz-selection {
 	background: #a6e32d;
 }
 
@@ -32,7 +39,8 @@
 	color: #67d9f0;
 }
 
-#blog a:hover, .blog-active #blog > a{
+#blog a:hover,
+li#blog.active a {
 	background-color: #67d9f0;
 	color: #121212;
 }
@@ -46,7 +54,8 @@
 	color: #e52222;
 }
 
-#projects a:hover, .projects-active #projects > a {
+#projects a:hover,
+li#projects.active a {
 	background-color: #e52222;
 	color: #121212;
 }
@@ -60,7 +69,8 @@
 	color: #c48dff;
 }
 
-#resume a:hover, .resume-active #resume > a {
+#resume a:hover,
+li#resume.active a {
 	background-color: #c48dff;
 	color: #121212;
 }
@@ -74,11 +84,13 @@
 	color: #fc951e;
 }
 
-#contact a:hover, .contact-active #contact > a {
+#contact a:hover,
+li#contact.active a {
 	background-color: #fc951e;
 	color: #121212;
 }
 
-.contact-active p::-moz-selection, .contact-active a::-moz-selection {
+.contact-active p::-moz-selection {
 	background: #fc951e;
 }
+
