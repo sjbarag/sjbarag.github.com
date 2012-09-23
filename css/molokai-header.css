@@ -20,13 +20,13 @@
 
 /* green */
 .brand {
-	color: #a6e32d;
+	color: #a6e32d !important;
 	background-color:#121212;
 }
 
-.navbar-inverse .brand:hover, .brand.active {
+.brand:hover, .brand.active {
 	background-color: #a6e32d;
-	color: #121212;
+	color: #121212 !important;
 }
 
 .brand.active p::-moz-selection,
