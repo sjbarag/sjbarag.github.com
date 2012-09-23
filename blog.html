@@ -3,6 +3,8 @@ layout: blog
 ---
 
 <h4>Here are some blog posts I've written:</h4>
+<p>
 {% for post in site.posts %}
 <a href="{{post.id}}">{{ post.title }}</a></li>
 {% endfor %}
+</p>
