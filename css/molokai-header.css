@@ -11,6 +11,22 @@
 	     box-shadow: none;
 }
 
+/* disable bottom shadow from nav */
+.navbar .navbar-inner {
+	border-bottom: 0;
+}
+
+/* remove left-right padding */
+body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* remove gap below final nav item in mobile view */
+.nav-collapse .nav {
+	margin: 0;
+}
+
 /* --- molokai-inspired highlights --- */
 
 /* green */
@@ -86,5 +102,21 @@ li#contact.active a {
 
 .contact-active p::-moz-selection {
 	background: #fc951e;
+}
+
+/* --- responsive dropdown --- */
+.nav-collapse .nav > li > a,
+.nav-collapse .dropdown-menu a {
+	border-radius: 0;
+}
+
+.navbar-inner {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: none;
+}
+
+.nav-collapse .nav > li > a {
+	margin-bottom: 0px;
 }
 
