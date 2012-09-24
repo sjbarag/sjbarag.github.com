@@ -45,8 +45,10 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="span8 offset2">
-					<h2>{{ page.title }}</h2>
-					<h6>{{ page.date | date_to_long_string }}</h6>
+					<div class="page-header">
+						<h2>{{ page.title }}</h2>
+						<h6>{{ page.date | date_to_long_string }}</h6>
+					</div>
 					{{ content }}
 				</div> <!-- /span8 -->
 			</div> <!-- /row-fluid -->
