@@ -1,8 +1,3 @@
-/* molokai navbar background */
-.navbar-inverse .container{
-	background-color: #121212;
-}
-
 /* disable background-shadow */
 .nav li a, .brand {
 	text-shadow: none !important;
@@ -21,12 +16,11 @@
 /* green */
 .brand {
 	color: #a6e32d !important;
-	background-color:#121212;
 }
 
 .brand:hover, .brand.active {
 	background-color: #a6e32d;
-	color: #121212 !important;
+	color: #1b1b1b !important;
 }
 
 .brand.active p::-moz-selection,
@@ -42,7 +36,7 @@
 #blog a:hover,
 li#blog.active a {
 	background-color: #67d9f0;
-	color: #121212;
+	color: #1b1b1b;
 }
 
 .blog-active p::-moz-selection {
@@ -57,7 +51,7 @@ li#blog.active a {
 #projects a:hover,
 li#projects.active a {
 	background-color: #e52222;
-	color: #121212;
+	color: #1b1b1b;
 }
 
 .projects-active p::-moz-selection {
@@ -72,7 +66,7 @@ li#projects.active a {
 #resume a:hover,
 li#resume.active a {
 	background-color: #c48dff;
-	color: #121212;
+	color: #1b1b1b;
 }
 
 .resume-active p::-moz-selection {
@@ -87,7 +81,7 @@ li#resume.active a {
 #contact a:hover,
 li#contact.active a {
 	background-color: #fc951e;
-	color: #121212;
+	color: #1b1b1b;
 }
 
 .contact-active p::-moz-selection {
