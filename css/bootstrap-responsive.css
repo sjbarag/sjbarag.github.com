@@ -815,7 +815,7 @@
     display: block;
     float: none;
     width: auto;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   .span12,
   .row-fluid .span12 {
