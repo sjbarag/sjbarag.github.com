@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: projects
 ---
 <h4>Well, uh, you see...</h4>
 I haven't added pages for my projects yet.  Most of them are available [on
